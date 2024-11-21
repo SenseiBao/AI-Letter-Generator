@@ -1,9 +1,9 @@
-# AI-Font-Generator
-Our goal is to extract text from an image and generate a font using that image.
+# AI-Letter Generator
+Our original goal was to extract text from an image and generate a font using that image. However, as a stepping stone, this takes a dataset of 32x32 fonts.
+It actually works pretty well right now.
 
 # To-Do
-Retrain the model with possibly more epochs.
-Add more letters to the dataset.
+Retrain the model with possibly more epochs because the loss is currently pretty high (Loss D: 0.3675882816314697, Loss G: 3.241739273071289)
 
 # Known Issues
-Currently the images of letters generated can often be incorrect but still pass the discriminator.
+Complex letters like G or Q may have issues and take a few reruns to finally get a letter that's clearly the intended letter.

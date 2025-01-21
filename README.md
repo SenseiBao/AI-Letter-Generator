@@ -12,7 +12,7 @@ Developed in collaboration with Noah Cha, this project explores generative typog
 - Improve generation of complex letters like G and Q
 
 # Known Issues
-- Complex letters like G or Q may have issues and take a few reruns to finally get a letter that's clearly the intended letter.
+- Complex letters may have issues and take a few reruns to finally get a letter that's clearly the intended letter.
 
 # Contributions
 Created by Bao Pham and Noah Cha
